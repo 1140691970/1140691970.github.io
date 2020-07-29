@@ -1,0 +1,11 @@
+- class_name: 友情链接
+#  class_desc:
+  link_list:
+    - name: Hexo
+      link: https://hexo.io/zh-cn/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、简洁且高效的博客框架
+    - name: PicGo
+      link: https://molunerfinn.com/PicGo/
+      avatar: https://molunerfinn.com/PicGo/imgs/256x256--icons.png
+      descr: 一个用于快速上传图片并获取图片URL链接的工具
