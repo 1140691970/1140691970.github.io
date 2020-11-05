@@ -112,4 +112,26 @@ aplayer:
   #  meting_api: http://xxx/api.php                # 自定义 Meting API 地址
   #  meting_cdn: http://xxx/Meing.min.js           # 引用 Meting.js 外部 CDN 地址 (默认不开启)
   #  externalLink: http://xxx/aplayer.min.js       # 老版本参数，功能与参数 cdn 相同
-  asset_inject: false                           # 自动插入 Aplayer.js 与 Meting.js 资源脚本, 默认开启
+  asset_inject: false                              # 自动插入 Aplayer.js 与 Meting.js 资源脚本, 默认开启
+
+# lisv2d
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  log: false
+  model:
+    use: live2d-widget-model-haruto
+  display:
+    position: right
+    width: 120
+    height: 240
+    hOffset: 20
+    vOffset: -10
+  mobile:
+    show: false
+  react:
+    opacity: 0.95

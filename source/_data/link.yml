@@ -1,5 +1,5 @@
 - class_name: 友情链接
-#  class_desc:
+  #  class_desc:
   link_list:
     - name: Hexo
       link: https://hexo.io/zh-cn/
@@ -9,3 +9,18 @@
       link: https://molunerfinn.com/PicGo/
       avatar: https://molunerfinn.com/PicGo/imgs/256x256--icons.png
       descr: 一个用于快速上传图片并获取图片URL链接的工具
+- class_name: 前端框架
+  #  class_desc:
+  link_list:
+    - name: Angular
+      link: https://angular.cn/
+      avatar: https://angular.cn/assets/images/favicons/favicon.ico
+      descr: 一个应用设计框架与开发平台，用于创建高效、复杂、精致的单页面应用
+    - name: Vue
+      link: https://cn.vuejs.org/
+      avatar: https://cn.vuejs.org//images/logo.png
+      descr: 一套用于构建用户界面的渐进式框架
+    - name: React
+      link: https://react.docschina.org/
+      avatar: https://react.docschina.org/logo-180x180.png
+      descr: 用于构建用户界面的 JavaScript 库
